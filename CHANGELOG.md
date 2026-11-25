@@ -20,7 +20,7 @@ Site and catalog refresh for the raise narrative (#103–#107).
 
 ## v0.13.0 — PROFILE
 
-The arkitype override layer is now real (#39, xingh/arkitype#12).
+The arkitype override layer is now real (#39, Anant/arkitype#12).
 
 - **00-arkitype is the override layer.** Everything that makes this Tekt yours (name, tagline, colors, fonts, layers, navigation, install commands) lives in one `profile:` block in `00-arkitype.md`, under `profile.site`. The layers below stay standard. Clone the repo and edit only this block to get a differently branded Tekt with the same structure.
 - **`_data/site.json` is a generated mirror.** `npm run profile` writes it from the profile, every `npm run build` (including Netlify deploys) runs that first, and `npm run profile:check` fails if the two ever disagree.
