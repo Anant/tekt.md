@@ -119,7 +119,7 @@ Agents pick up phases that suit their archetype: edge nodes gather, workspace no
 
 00-arkitype is the **override layer**. The layers below it (01 Infrastructure, 02 Database, 03 Software, 04 Interface) hold the core configuration in a standard structure that's the same for every Tekt. 00 holds what makes *this* one yours: its identity, look and settings. Clone the repo, change only this file, and you get a differently branded, differently configured Tekt, with the same structure underneath, so regenerating it stays predictable.
 
-Everything instance-specific lives in one `profile:` block, with a section for each kind of thing being profiled. `site:` is the first; `agent:` and others can join it later (see [xingh/arkitype#12](https://github.com/xingh/arkitype/issues/12)).
+Everything instance-specific lives in one `profile:` block, with a section for each kind of thing being profiled. `site:` is the first; `agent:` and others can join it later (see [Anant/arkitype#12](https://github.com/Anant/arkitype/issues/12)).
 
 - **Edit `profile.site` here** to change the site's name, tagline, colors, fonts, layers, navigation or install commands.
 - `_data/site.json` is its **generated mirror**, because the site generator reads it. Don't edit it by hand. `npm run profile` rewrites it from this block, every `npm run build` (including the Netlify deploy) runs that first, and `npm run profile:check` fails if the two disagree.

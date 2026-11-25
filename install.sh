@@ -2843,7 +2843,7 @@ skill_add() {
   source="$(printf '%s' "$entry" | awk -F '\037' '{ print $3 }')"
   if [ -z "$source" ]; then
     warn "'$name' isn't a standalone skill yet. It comes with the arkitype plugin in Claude Code:"
-    warn "  /plugin marketplace add xingh/arkitype   then   /plugin install arkitype@arkitype"
+    warn "  /plugin marketplace add Anant/arkitype   then   /plugin install arkitype@arkitype"
     return 1
   fi
   if [ -z "$space" ]; then

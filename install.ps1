@@ -1822,7 +1822,7 @@ function Skill-Add($rawName, $rawSpace) {
     if (-not $entry) { Err "'$name' isn't on the shelf. See:  tekt skill shelf"; return }
     if (-not $entry.Source) {
         Warn "'$name' isn't a standalone skill yet. It comes with the arkitype plugin in Claude Code:"
-        Warn "  /plugin marketplace add xingh/arkitype   then   /plugin install arkitype@arkitype"
+        Warn "  /plugin marketplace add Anant/arkitype   then   /plugin install arkitype@arkitype"
         return
     }
 

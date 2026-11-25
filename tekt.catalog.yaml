@@ -642,34 +642,34 @@ mcp_servers:
 # `curating` = chosen, but not a standalone skill yet.
 skills:
   rfp-proposal-responder:
-    upstream: "xingh/arkitype — arkitype Claude Code plugin"
-    repo: https://github.com/xingh/arkitype/tree/main/plugins/arkitype/skills/rfp-proposal-responder
+    upstream: "Anant/arkitype — arkitype Claude Code plugin"
+    repo: https://github.com/Anant/arkitype/tree/main/plugins/arkitype/skills/rfp-proposal-responder
     runs_in: [claude-code]
-    install: "/plugin marketplace add xingh/arkitype, then /plugin install arkitype@arkitype"
+    install: "/plugin marketplace add Anant/arkitype, then /plugin install arkitype@arkitype"
     summary: "Turns solicitation PDFs into a compliance checklist, a draft proposal, and a cost and timeline estimate"
-    source: https://raw.githubusercontent.com/xingh/arkitype/main/plugins/arkitype/skills/rfp-proposal-responder/SKILL.md
+    source: https://raw.githubusercontent.com/Anant/arkitype/main/plugins/arkitype/skills/rfp-proposal-responder/SKILL.md
     status: available
   domain-to-diligence:
-    upstream: "xingh/arkitype — arkitype Claude Code plugin"
-    repo: https://github.com/xingh/arkitype/tree/main/plugins/arkitype/skills/domain-to-diligence
+    upstream: "Anant/arkitype — arkitype Claude Code plugin"
+    repo: https://github.com/Anant/arkitype/tree/main/plugins/arkitype/skills/domain-to-diligence
     runs_in: [claude-code]
-    install: "/plugin marketplace add xingh/arkitype, then /plugin install arkitype@arkitype"
+    install: "/plugin marketplace add Anant/arkitype, then /plugin install arkitype@arkitype"
     summary: "Turns a company's domain name into a scored, confidence-tagged investment memo"
-    source: https://raw.githubusercontent.com/xingh/arkitype/main/plugins/arkitype/skills/domain-to-diligence/SKILL.md
+    source: https://raw.githubusercontent.com/Anant/arkitype/main/plugins/arkitype/skills/domain-to-diligence/SKILL.md
     status: available
   opportunity-finder:
-    upstream: "xingh/arkitype — arkitype Claude Code plugin"
-    repo: https://github.com/xingh/arkitype/tree/main/plugins/arkitype/skills/opportunity-finder
+    upstream: "Anant/arkitype — arkitype Claude Code plugin"
+    repo: https://github.com/Anant/arkitype/tree/main/plugins/arkitype/skills/opportunity-finder
     runs_in: [claude-code]
-    install: "/plugin marketplace add xingh/arkitype, then /plugin install arkitype@arkitype"
+    install: "/plugin marketplace add Anant/arkitype, then /plugin install arkitype@arkitype"
     summary: "Finds, verifies and scores grants, fellowships and awards, then writes proposal briefs"
-    source: https://raw.githubusercontent.com/xingh/arkitype/main/plugins/arkitype/skills/opportunity-finder/SKILL.md
+    source: https://raw.githubusercontent.com/Anant/arkitype/main/plugins/arkitype/skills/opportunity-finder/SKILL.md
     status: available
   arkitype-extract:
-    upstream: "xingh/arkitype — arkitype Claude Code plugin"
-    repo: https://github.com/xingh/arkitype/blob/main/plugins/arkitype/commands/extract.md
+    upstream: "Anant/arkitype — arkitype Claude Code plugin"
+    repo: https://github.com/Anant/arkitype/blob/main/plugins/arkitype/commands/extract.md
     runs_in: [claude-code]
-    install: "/plugin marketplace add xingh/arkitype, then /plugin install arkitype@arkitype"
+    install: "/plugin marketplace add Anant/arkitype, then /plugin install arkitype@arkitype"
     summary: "Reverse-engineers a codebase into the five-file arkitype spec (00–04)"
     status: curating
 
