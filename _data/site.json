@@ -104,7 +104,7 @@
     "Security",
     "Privacy"
   ],
-  "repo": "https://github.com/xingh/tekt.md",
+  "repo": "https://github.com/Anant/tekt.md",
   "catalog_version": "2026.10",
   "install": {
     "unix": "curl -fsSL https://tekt.md/install.sh | bash",

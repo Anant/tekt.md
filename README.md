@@ -12,7 +12,7 @@ permalink: /index.html
 
 Tekt is free and open. Do with intelcraft. Host with Konotree.
 
-Browse every shelf at [tekt.md/catalog](/catalog/), or read the source of truth: [`tekt.catalog.yaml`](https://github.com/xingh/tekt.md/blob/main/tekt.catalog.yaml).
+Browse every shelf at [tekt.md/catalog](/catalog/), or read the source of truth: [`tekt.catalog.yaml`](https://github.com/Anant/tekt.md/blob/main/tekt.catalog.yaml).
 
 ![One workspace, many clients: people and agents share the same Tekt harness — synced to the cloud](./tekt.md.png)
 
@@ -74,7 +74,7 @@ Share the `Tekt/team` folder from Google Drive the way you share anything, then 
 
 ## Roadmap
 
-Where the belt is headed: a modular framework of providers, knowledge, agents, communication and cloud. You plug in the models, then orchestrate, build and empower your own workflows. The iteration-by-iteration plan is in [`.manage/2026.09.10.iterations.plan.md`](https://github.com/xingh/tekt.md/blob/main/.manage/2026.09.10.iterations.plan.md).
+Where the belt is headed: a modular framework of providers, knowledge, agents, communication and cloud. You plug in the models, then orchestrate, build and empower your own workflows. The iteration-by-iteration plan is in [`.manage/2026.09.10.iterations.plan.md`](https://github.com/Anant/tekt.md/blob/main/.manage/2026.09.10.iterations.plan.md).
 
 ![Tekt framework roadmap: tekt/ai/providers, tekt/knowledge, tekt/agents, tekt/communication, tekt/cloud and tekt/framework](./tekt.roadmap.png)
 
@@ -99,7 +99,7 @@ The PowerShell installer refreshes `PATH` as it goes, so you should not need to 
 **Git:**
 
 ```
-git clone https://github.com/xingh/tekt.md
+git clone https://github.com/Anant/tekt.md
 cd tekt.md
 bash install.sh          # or: .\install.ps1
 ```
@@ -232,7 +232,7 @@ Scaffolded by the installer, started on demand (`mcp` / `ui`):
 
 ## Customizing
 
-Version pins and repo URLs live in [`tekt.catalog.yaml`](https://github.com/xingh/tekt.md/blob/main/tekt.catalog.yaml) — edit it next to the script and both installers pick up the pins. To skip a tool, comment out its call in `main()`. The catalog is also the honest ledger of upstream creators and licenses; if you redistribute Tekt, keep it intact.
+Version pins and repo URLs live in [`tekt.catalog.yaml`](https://github.com/Anant/tekt.md/blob/main/tekt.catalog.yaml) — edit it next to the script and both installers pick up the pins. To skip a tool, comment out its call in `main()`. The catalog is also the honest ledger of upstream creators and licenses; if you redistribute Tekt, keep it intact.
 
 ## Architecture Reference
 
@@ -257,7 +257,7 @@ The most common fix for everything: **open a fresh terminal** (PATH caching). Th
 
 ## Contributing
 
-Issues and PRs welcome at [github.com/xingh/tekt.md](https://github.com/xingh/tekt.md).
+Issues and PRs welcome at [github.com/Anant/tekt.md](https://github.com/Anant/tekt.md).
 
 ## Credits
 
