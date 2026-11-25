@@ -191,7 +191,7 @@ profile:
       - Sovereignty
       - Security
       - Privacy
-    repo: https://github.com/xingh/tekt.md
+    repo: https://github.com/Anant/tekt.md
     catalog_version: '2026.10'
     install:
       unix: curl -fsSL https://tekt.md/install.sh | bash
@@ -313,6 +313,6 @@ profile:
 
 ---
 
-Tekt's IP is curation, arkitype composition, continuous edge↔cloud sync, and the Sovrant command center — while every catalog entry remains someone else's excellent work. Upstream credit is a founding principle of this distribution — see the `upstream:` field on every entry in [`tekt.catalog.yaml`](https://github.com/xingh/tekt.md/blob/main/tekt.catalog.yaml).
+Tekt's IP is curation, arkitype composition, continuous edge↔cloud sync, and the Sovrant command center — while every catalog entry remains someone else's excellent work. Upstream credit is a founding principle of this distribution — see the `upstream:` field on every entry in [`tekt.catalog.yaml`](https://github.com/Anant/tekt.md/blob/main/tekt.catalog.yaml).
 
 Tekt is free and open. Do with intelcraft. Host with Konotree.
