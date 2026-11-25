@@ -10,7 +10,7 @@ permalink: /index.html
 
 **Edge ↔ cloud, always in sync.** Everything backed up. Work offline; it resyncs when you're back. Tekt sets up an **AI sandbox** on your Linux or Windows machine so agents can do real work for you. It is an open-source and free-to-use utility belt for AI engineers: a hand-curated catalog of **tools**, **agents**, **MCP servers** and **skills**. It brings the best of open source, free-to-use and SaaS software, already picked and vetted, so you don't have to choose. One script installs it on infrastructure you own, and you **bring your own intelligence**. Builders get a workbench ready to go. Operators get a stack they can run and share. Managers get a clear view of what the agents are doing. *Sovereignty · Security · Privacy.*
 
-Tekt is the free open stack. Konotree is commercial support. Researched by Intelcraft and developed here at Anant Corporation Labs.
+Tekt is free and open. Do with intelcraft. Host with Konotree.
 
 Browse every shelf at [tekt.md/catalog](/catalog/), or read the source of truth: [`tekt.catalog.yaml`](https://github.com/xingh/tekt.md/blob/main/tekt.catalog.yaml).
 
@@ -267,4 +267,4 @@ Tekt exists because of the people who build the tools it composes. The catalog, 
 
 *Researched by [Intelcraft](https://intelcraft.ai) · developed here at [Anant Corporation Labs](https://anant.co) · commercial support: [Konotree](https://konotree.com)*
 
-Tekt is the free open stack. Konotree is commercial support. Researched by Intelcraft and developed here at Anant Corporation Labs.
+Tekt is free and open. Do with intelcraft. Host with Konotree.
